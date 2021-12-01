@@ -1,0 +1,15 @@
+[alias]
+	pff = push --force-with-lease
+	rbm = !git fetch origin && git rebase origin/master
+	rbc = !git add . && git rebase --continue
+	rba = rebase --abort
+	co = checkout
+	cp = cherry-pick
+	fo = fetch origin
+	rsmaster = !git fetch origin && git reset --hard origin/master
+
+[user]
+	name = Sören Reichardt
+	email = soren.reichardt@neotechnology.com
+[core]
+	editor = vim
